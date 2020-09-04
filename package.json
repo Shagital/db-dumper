@@ -1,0 +1,38 @@
+{
+    "name": "@shagital/db-dumper",
+    "version": "1.0.0",
+    "description": "A nodejs package to quickly dumb DB to file. Supports Mysql, PostgreSQL, MongoDB and SQLite",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "adonisjs",
+        "node",
+        "db-dump",
+        "mysql",
+        "postgresql",
+        "mongodb",
+        "sqlite",
+        "mongodump",
+        "mysqldump",
+        "pg_dump",
+        "dump"
+    ],
+    "author": "Zacchaeus Bolaji <zacchaeus@shagital.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.4.2"
+    },
+    "dependencies": {
+        "mysql": "^2.18.1",
+        "pg": "^8.3.3",
+        "sqlite3": "^5.0.0",
+        "temp": "^0.9.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/djunehor/db-dumper.git"
+    },
+    "homepage": "https://github.com/djunehor/db-dumper"
+}
