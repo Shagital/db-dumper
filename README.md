@@ -9,28 +9,41 @@ Here are simple examples of how to create a database dump with different drivers
 
 ```js
 const { MySql } = require('@shagital/db-dumper');
-MySql.create().setDbName('dbName').setUserName('userName').setPassword('password').dumpToFile('./dump.sql');
+MySql.create()
+.setDbName('dbName')
+.setUserName('userName')
+.setPassword('password')
+.dumpToFile('./dump.sql');
 ```
 
 **PostgreSQL**
 
 ```js
 const { PostgreSql } = require('@shagital/db-dumper');
-PostgreSql.create().setDbName('dbName').setUserName('userName').setPassword('password').dumpToFile('./dump.sql');
+PostgreSql.create()
+.setDbName('dbName')
+.setUserName('userName')
+.setPassword('password')
+.dumpToFile('./dump.sql');
 ```
 
 **SQLite**
 
 ```js
 const { Sqlite } = require('@shagital/db-dumper');
-Sqlite.create().setDbName('path_to_sqlite.sqlite').dumpToFile('dump.sql');
+Sqlite.create()
+.setDbName('path_to_sqlite.sqlite')
+.dumpToFile('dump.sql');
 ```
 
 **MongoDB**
 
 ```js
 const { MongoDb } = require('@shagital/db-dumper');
-MongoDb.create().setDbName('dbName').setCollection('collectionName').dumpToFile('./dump.gz');
+MongoDb.create()
+.setDbName('dbName')
+.setCollection('collectionName')
+.dumpToFile('./dump.gz');
 ```
 
 ## Requirements
