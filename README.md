@@ -229,11 +229,11 @@ yarn test
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+If you have a feature you'd like to add, kindly send a Pull Request (PR)
 
 ## Security
 
-If you discover any security related issues, please email zacchaeus@shagital.com instead of using the issue tracker.
+If you discover any security related issues, please email [zacchaeus@shagital.com](mailto:zacchaeus@shagital.com) instead of using the issue tracker.
 
 ## Credits
 This Nodejs was heavily influenced by [Spatie `db-dumper` PHP package](https://github.com/spatie/db-dumper)
