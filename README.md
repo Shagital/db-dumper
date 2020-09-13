@@ -1,4 +1,7 @@
 # Dump the contents of a database
+![npm](https://img.shields.io/npm/dt/@shagital/db-dumper?style=plastic)
+![npm (scoped)](https://img.shields.io/npm/v/@shagital/db-dumper)
+![NPM](https://img.shields.io/npm/l/@shagital/db-dumper)
 
 This repo contains an easy to use class to dump a database using Nodejs. Currently MySQL, PostgreSQL, SQLite and MongoDB are supported. Behind
 the scenes, `mysqldump`, `pg_dump`, `sqlite3` and `mongodump` are used.
